@@ -10,7 +10,7 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v2
     appVersion: v1.17.1
-    created: "2025-03-31T09:21:36.900359+02:00"
+    created: "2025-03-31T09:50:58.37241+02:00"
     description: A Helm chart for cert-manager
     digest: 2cdea8a0f167090b1377ab7c1cd514aa7f8c437b00d9de53c245edba7f593dbf
     home: https://cert-manager.io
@@ -34,7 +34,7 @@ entries:
   flagger:
   - apiVersion: v1
     appVersion: 1.40.0
-    created: "2025-03-31T09:21:36.901514+02:00"
+    created: "2025-03-31T09:50:58.374945+02:00"
     description: Flagger is a progressive delivery operator for Kubernetes
     digest: f055fa8035617e5f44093fb5b32efaacdbac9f0884e517d33d760d8a327be95d
     home: https://flagger.app
@@ -64,10 +64,42 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/flagger-1.40.0.tgz
     version: 1.40.0
+  - apiVersion: v1
+    appVersion: 1.35.0
+    created: "2025-03-31T09:50:58.373611+02:00"
+    description: Flagger is a progressive delivery operator for Kubernetes
+    digest: 8b6856752069ac66d85fceb6319495fe2c251ac4da1cde7132cb52cc12c55593
+    home: https://flagger.app
+    icon: https://raw.githubusercontent.com/fluxcd/flagger/main/docs/logo/flagger-icon.png
+    keywords:
+    - flagger
+    - istio
+    - appmesh
+    - linkerd
+    - kuma
+    - osm
+    - smi
+    - gloo
+    - contour
+    - nginx
+    - traefik
+    - gitops
+    - canary
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+      url: https://github.com/stefanprodan
+    name: flagger
+    sources:
+    - https://github.com/fluxcd/flagger
+    urls:
+    - https://activeops-io.github.io/helm-packages/charts/flagger-1.35.0.tgz
+    version: 1.35.0
   game-symbols:
   - apiVersion: v2
     appVersion: v0.11.5
-    created: "2025-03-31T09:21:36.901897+02:00"
+    created: "2025-03-31T09:50:58.375387+02:00"
     description: A Helm chart for deployment of game-symbols to Kubernetes
     digest: 8b0cff6d3f64c8ca092811cceca0687a356046887910af6da8ec0390e827472c
     name: game-symbols
@@ -82,7 +114,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.12.1
-    created: "2025-03-31T09:21:36.906117+02:00"
+    created: "2025-03-31T09:50:58.378508+02:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 5e5581926bee2f9c8ac10d41c6afe962f4cda9d3010c6cc1c041dd2a874ab82e
@@ -105,7 +137,7 @@ entries:
     version: 4.12.1
   network-policies:
   - apiVersion: v2
-    created: "2025-03-31T09:21:36.906571+02:00"
+    created: "2025-03-31T09:50:58.379027+02:00"
     description: A Helm chart for Kubernetes NetworkPolicy
     digest: 74c4c19b1be9a7a477c9a5fca439cbcf5dffa7f91cfd81fa42e0d40603fd00df
     name: network-policies
@@ -116,7 +148,7 @@ entries:
   rancher:
   - apiVersion: v2
     appVersion: v2.7.9
-    created: "2025-03-31T09:21:36.907499+02:00"
+    created: "2025-03-31T09:50:58.380075+02:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 27f7898e733395970da5383b1bc99cc2f73fd63ea6ab387bc923ce112ffbd87b
     home: https://rancher.com
@@ -137,7 +169,7 @@ entries:
   reloader:
   - apiVersion: v1
     appVersion: v1.3.0
-    created: "2025-03-31T09:21:36.908148+02:00"
+    created: "2025-03-31T09:50:58.380865+02:00"
     description: Reloader chart that runs on kubernetes
     digest: e29147343696e145169cd3be14e483fb132c09819d8870ef73c5e55202568ff9
     home: https://github.com/stakater/Reloader
@@ -163,7 +195,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.28.0
-    created: "2025-03-31T09:21:36.909207+02:00"
+    created: "2025-03-31T09:50:58.38254+02:00"
     description: Helm chart for the sealed-secrets controller.
     digest: 558b570437af298707a34062b53267531916ccb544dc583a191329a52cefcdee
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -185,7 +217,7 @@ entries:
   spicedb:
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2025-03-31T09:21:36.909621+02:00"
+    created: "2025-03-31T09:50:58.383024+02:00"
     description: A Helm chart for Kubernetes
     digest: e6ce06b70b3d18873abcbce15f6c1df70d1d32a842e8aae5dd5b477d335989f7
     name: spicedb
@@ -196,7 +228,7 @@ entries:
   strimzi-kafka-operator:
   - apiVersion: v2
     appVersion: 0.45.0
-    created: "2025-03-31T09:21:36.913698+02:00"
+    created: "2025-03-31T09:50:58.387481+02:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: 077fb30a5f2c38c099ab4f582f99cea41f512c71e045f47a1729bc05c48cc50f
     home: https://strimzi.io/
@@ -228,7 +260,7 @@ entries:
   temporal:
   - apiVersion: v2
     appVersion: 1.27.1
-    created: "2025-03-31T09:21:36.920441+02:00"
+    created: "2025-03-31T09:50:58.394465+02:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -267,7 +299,7 @@ entries:
     version: 0.57.0
   typesense:
   - apiVersion: v2
-    created: "2025-03-31T09:21:36.920934+02:00"
+    created: "2025-03-31T09:50:58.394999+02:00"
     description: Typesense is an open source, typo tolerant search engine that delivers
       fast and relevant results out-of-the-box.
     digest: d650df47d3f1b29d54f4e90715428afa1acd5d5e464796a39a9db73cdbfb25bb
@@ -284,4 +316,4 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/typesense-0.0.1.tgz
     version: 0.0.1
-generated: "2025-03-31T09:21:36.893641+02:00"
+generated: "2025-03-31T09:50:58.367007+02:00"
