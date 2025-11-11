@@ -9,8 +9,38 @@ entries:
         fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v2
+    appVersion: v1.19.1
+    created: "2025-11-11T05:41:31.043015+01:00"
+    description: A Helm chart for cert-manager
+    digest: b3079ac88b1cf2fcbabdfdd8b83c925bb4c99f36dbf50061d2e9a097b3f17d3a
+    home: https://cert-manager.io
+    icon: https://raw.githubusercontent.com/cert-manager/community/4d35a69437d21b76322157e6284be4cd64e6d2b7/logo/logo-small.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.22.0-0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://activeops-io.github.io/helm-packages/charts/cert-manager-v1.19.1.tgz
+    version: v1.19.1
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v2
     appVersion: v1.18.2
-    created: "2025-10-06T07:35:11.545972+02:00"
+    created: "2025-11-11T05:41:31.039042+01:00"
     description: A Helm chart for cert-manager
     digest: c77022be0409ac5d45e8157942ee8a5b032787fcb0d0ed98aedcd778b32bd4d3
     home: https://cert-manager.io
@@ -40,7 +70,7 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v2
     appVersion: v1.17.2
-    created: "2025-10-06T07:35:11.541041+02:00"
+    created: "2025-11-11T05:41:31.035029+01:00"
     description: A Helm chart for cert-manager
     digest: 65310929fbe6b9b618e5b4b8fd1d89993f23baecc38d36cee4f3353bd60e48f0
     home: https://cert-manager.io
@@ -70,7 +100,7 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v2
     appVersion: v1.17.1
-    created: "2025-10-06T07:35:11.535796+02:00"
+    created: "2025-11-11T05:41:31.031273+01:00"
     description: A Helm chart for cert-manager
     digest: 2cdea8a0f167090b1377ab7c1cd514aa7f8c437b00d9de53c245edba7f593dbf
     home: https://cert-manager.io
@@ -94,7 +124,7 @@ entries:
   flagger:
   - apiVersion: v1
     appVersion: 1.40.0
-    created: "2025-10-06T07:35:11.54919+02:00"
+    created: "2025-11-11T05:41:31.045274+01:00"
     description: Flagger is a progressive delivery operator for Kubernetes
     digest: f85cfe3329ecdab3b0ea7b9b1e9aed4fca46d3855529e5ee7a3e98af8d63b67f
     home: https://flagger.app
@@ -126,7 +156,7 @@ entries:
     version: 1.40.0
   - apiVersion: v1
     appVersion: 1.35.0
-    created: "2025-10-06T07:35:11.548093+02:00"
+    created: "2025-11-11T05:41:31.044246+01:00"
     description: Flagger is a progressive delivery operator for Kubernetes
     digest: 8b6856752069ac66d85fceb6319495fe2c251ac4da1cde7132cb52cc12c55593
     home: https://flagger.app
@@ -159,7 +189,7 @@ entries:
   game-symbols:
   - apiVersion: v2
     appVersion: v0.11.5
-    created: "2025-10-06T07:35:11.551013+02:00"
+    created: "2025-11-11T05:41:31.045697+01:00"
     description: A Helm chart for deployment of game-symbols to Kubernetes
     digest: 8b0cff6d3f64c8ca092811cceca0687a356046887910af6da8ec0390e827472c
     name: game-symbols
@@ -174,7 +204,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.13.3
-    created: "2025-10-06T07:35:11.56233+02:00"
+    created: "2025-11-11T05:41:31.053904+01:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 734d4c23756d0bf1e514251dffbad92a7dc206cffe60b84320af3384e60bb54c
@@ -201,7 +231,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.12.3
-    created: "2025-10-06T07:35:11.558286+02:00"
+    created: "2025-11-11T05:41:31.05103+01:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 2c765653786400c66e1859de7fd639d458da0d8561a5eb1115ae86cbc1b6d3f0
@@ -228,7 +258,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.12.1
-    created: "2025-10-06T07:35:11.554318+02:00"
+    created: "2025-11-11T05:41:31.04815+01:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 5e5581926bee2f9c8ac10d41c6afe962f4cda9d3010c6cc1c041dd2a874ab82e
@@ -251,7 +281,7 @@ entries:
     version: 4.12.1
   network-policies:
   - apiVersion: v2
-    created: "2025-10-06T07:35:11.562799+02:00"
+    created: "2025-11-11T05:41:31.054304+01:00"
     description: A Helm chart for Kubernetes NetworkPolicy
     digest: 74c4c19b1be9a7a477c9a5fca439cbcf5dffa7f91cfd81fa42e0d40603fd00df
     name: network-policies
@@ -262,7 +292,7 @@ entries:
   rancher:
   - apiVersion: v2
     appVersion: v2.7.9
-    created: "2025-10-06T07:35:11.565322+02:00"
+    created: "2025-11-11T05:41:31.055126+01:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 27f7898e733395970da5383b1bc99cc2f73fd63ea6ab387bc923ce112ffbd87b
     home: https://rancher.com
@@ -283,7 +313,7 @@ entries:
   reloader:
   - apiVersion: v1
     appVersion: v1.4.8
-    created: "2025-10-06T07:35:11.569796+02:00"
+    created: "2025-11-11T05:41:31.058429+01:00"
     description: Reloader chart that runs on kubernetes
     digest: c3f651dd932ad5d2effa7a1a08535be9026f516f51f525041a9ff8128ec736ae
     home: https://github.com/stakater/Reloader
@@ -306,7 +336,7 @@ entries:
     version: 2.2.3
   - apiVersion: v1
     appVersion: v1.4.4
-    created: "2025-10-06T07:35:11.567256+02:00"
+    created: "2025-11-11T05:41:31.057549+01:00"
     description: Reloader chart that runs on kubernetes
     digest: c45f1ed081ab39ec3cbcf9bba48b52761302ebd4f08b55f9f5294c56673f4c6a
     home: https://github.com/stakater/Reloader
@@ -329,7 +359,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: v1.4.2
-    created: "2025-10-06T07:35:11.566584+02:00"
+    created: "2025-11-11T05:41:31.056595+01:00"
     description: Reloader chart that runs on kubernetes
     digest: a70561eb009807fc0dc1495c0df068e8583a2b74b5c7a83fd95c6cf223145c21
     home: https://github.com/stakater/Reloader
@@ -352,7 +382,7 @@ entries:
     version: 2.1.3
   - apiVersion: v1
     appVersion: v1.3.0
-    created: "2025-10-06T07:35:11.565897+02:00"
+    created: "2025-11-11T05:41:31.05573+01:00"
     description: Reloader chart that runs on kubernetes
     digest: e29147343696e145169cd3be14e483fb132c09819d8870ef73c5e55202568ff9
     home: https://github.com/stakater/Reloader
@@ -378,7 +408,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.32.2
-    created: "2025-10-06T07:35:11.575538+02:00"
+    created: "2025-11-11T05:41:31.063221+01:00"
     description: Helm chart for the sealed-secrets controller.
     digest: 8552611b2aa3320dbbf7e2199fdfd97f4b9d1791ad28bda04446a599f44fcb75
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -401,7 +431,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.30.0
-    created: "2025-10-06T07:35:11.574363+02:00"
+    created: "2025-11-11T05:41:31.062155+01:00"
     description: Helm chart for the sealed-secrets controller.
     digest: 4933f83cd39e8b73e7ed56eb9282b4d0ca06f01cc912f690d8234d73dd189012
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -424,7 +454,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.29.0
-    created: "2025-10-06T07:35:11.571977+02:00"
+    created: "2025-11-11T05:41:31.061095+01:00"
     description: Helm chart for the sealed-secrets controller.
     digest: a2e217752efd82f0558d44ddd504c267f5300a20f4e30ca4582e36a31c1505c5
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -447,7 +477,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.28.0
-    created: "2025-10-06T07:35:11.570811+02:00"
+    created: "2025-11-11T05:41:31.05947+01:00"
     description: Helm chart for the sealed-secrets controller.
     digest: 558b570437af298707a34062b53267531916ccb544dc583a191329a52cefcdee
     home: https://github.com/bitnami-labs/sealed-secrets
@@ -469,7 +499,7 @@ entries:
   spicedb:
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2025-10-06T07:35:11.575964+02:00"
+    created: "2025-11-11T05:41:31.063606+01:00"
     description: A Helm chart for Kubernetes
     digest: e6ce06b70b3d18873abcbce15f6c1df70d1d32a842e8aae5dd5b477d335989f7
     name: spicedb
@@ -480,7 +510,7 @@ entries:
   strimzi-kafka-operator:
   - apiVersion: v2
     appVersion: 0.46.0
-    created: "2025-10-06T07:35:11.587197+02:00"
+    created: "2025-11-11T05:41:31.071001+01:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: d86e19665825949feb37ba02fdfecb27093f137f2ad09709935e4324c704c993
     home: https://strimzi.io/
@@ -511,7 +541,7 @@ entries:
     version: 0.46.0
   - apiVersion: v2
     appVersion: 0.45.0
-    created: "2025-10-06T07:35:11.583753+02:00"
+    created: "2025-11-11T05:41:31.067098+01:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: e25a116441795d0ccf5f647d8082d8aa630631d2c79f364822f7e33e4bf39752
     home: https://strimzi.io/
@@ -543,7 +573,46 @@ entries:
   temporal:
   - apiVersion: v2
     appVersion: 1.29.0
-    created: "2025-10-06T07:35:11.660321+02:00"
+    created: "2025-11-11T05:41:31.136307+01:00"
+    dependencies:
+    - condition: cassandra.enabled
+      name: cassandra
+      repository: https://charts.helm.sh/incubator
+      version: 0.14.3
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.22.0
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 8.0.2
+    description: Temporal is a distributed, scalable, durable, and highly available
+      orchestration engine to execute asynchronous long-running business logic in
+      a scalable and resilient way.
+    digest: af973bb293a01161dd97fbfab148acf6661095f51cf5b727c2022e61545ba9a1
+    home: https://temporal.io/
+    keywords:
+    - temporal
+    - workflow
+    - orchestration
+    maintainers:
+    - name: temporalio
+      url: https://temporal.io/
+    name: temporal
+    sources:
+    - https://github.com/temporalio/temporal
+    type: application
+    urls:
+    - https://activeops-io.github.io/helm-packages/charts/temporal-0.70.0.tgz
+    version: 0.70.0
+  - apiVersion: v2
+    appVersion: 1.29.0
+    created: "2025-11-11T05:41:31.130629+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -582,7 +651,7 @@ entries:
     version: 0.68.0
   - apiVersion: v2
     appVersion: 1.28.1
-    created: "2025-10-06T07:35:11.652418+02:00"
+    created: "2025-11-11T05:41:31.124985+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -621,7 +690,7 @@ entries:
     version: 0.65.0
   - apiVersion: v2
     appVersion: 1.28.0
-    created: "2025-10-06T07:35:11.644334+02:00"
+    created: "2025-11-11T05:41:31.119302+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -660,7 +729,7 @@ entries:
     version: 0.64.0
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.636792+02:00"
+    created: "2025-11-11T05:41:31.113566+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -699,7 +768,7 @@ entries:
     version: 0.63.0
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.626795+02:00"
+    created: "2025-11-11T05:41:31.107752+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -738,7 +807,7 @@ entries:
     version: 0.62.0
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.62108+02:00"
+    created: "2025-11-11T05:41:31.101674+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -777,7 +846,7 @@ entries:
     version: 0.62.0-3
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.612322+02:00"
+    created: "2025-11-11T05:41:31.094963+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -816,7 +885,7 @@ entries:
     version: 0.62.0-2
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.606336+02:00"
+    created: "2025-11-11T05:41:31.08895+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -855,7 +924,7 @@ entries:
     version: 0.62.0-1
   - apiVersion: v2
     appVersion: 1.27.2
-    created: "2025-10-06T07:35:11.599038+02:00"
+    created: "2025-11-11T05:41:31.08267+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -894,7 +963,7 @@ entries:
     version: 0.59.0
   - apiVersion: v2
     appVersion: 1.27.1
-    created: "2025-10-06T07:35:11.593187+02:00"
+    created: "2025-11-11T05:41:31.076625+01:00"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -933,7 +1002,7 @@ entries:
     version: 0.57.0
   typesense:
   - apiVersion: v2
-    created: "2025-10-06T07:35:11.660859+02:00"
+    created: "2025-11-11T05:41:31.136822+01:00"
     description: Typesense is an open source, typo tolerant search engine that delivers
       fast and relevant results out-of-the-box.
     digest: d650df47d3f1b29d54f4e90715428afa1acd5d5e464796a39a9db73cdbfb25bb
@@ -950,4 +1019,4 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/typesense-0.0.1.tgz
     version: 0.0.1
-generated: "2025-10-06T07:35:11.526041+02:00"
+generated: "2025-11-11T05:41:31.025252+01:00"
