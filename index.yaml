@@ -373,6 +373,22 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/network-policies-0.1.0.tgz
     version: 0.1.0
+  pgbouncer:
+  - apiVersion: v1
+    appVersion: 1.26.1
+    created: "2026-11-01T14:35:23.122229+07:00"
+    description: PgBouncer chart, folked from https://github.com/cradlepoint/kubernetes-helm-chart-pgbouncer
+      with some custom values
+    digest: 17bafc39915bf7caf9d60a7c40a222b366c669565e4ead92bdb29ae616473e0a
+    home: https://github.com/duyet/charts/tree/master/pgbouncer
+    maintainers:
+    - email: me@duyet.net
+      name: duyet
+      url: https://github.com/duyet
+    name: pgbouncer
+    urls:
+    - https://activeops-io.github.io/helm-packages/charts/pgbouncer-1.1.0.tgz
+    version: 1.1.0
   rancher:
   - apiVersion: v2
     appVersion: v2.7.9
@@ -1351,4 +1367,4 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/typesense-0.0.1.tgz
     version: 0.0.1
-generated: "2026-10-14T14:52:49.039892+08:00"
+generated: "2026-11-01T14:35:23.121394+07:00"
