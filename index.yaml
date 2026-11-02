@@ -376,6 +376,21 @@ entries:
   pgbouncer:
   - apiVersion: v1
     appVersion: 1.26.1
+    created: "2026-11-02T09:38:58.988042+07:00"
+    description: PgBouncer chart, folked from https://github.com/cradlepoint/kubernetes-helm-chart-pgbouncer
+      with some custom values
+    digest: fe60f61844ee5a71e2d1ce8ee92d646b88e9a1a6d0ee69f04037a4b43cf3cfb5
+    home: https://github.com/duyet/charts/tree/master/pgbouncer
+    maintainers:
+    - email: me@duyet.net
+      name: duyet
+      url: https://github.com/duyet
+    name: pgbouncer
+    urls:
+    - https://activeops-io.github.io/helm-packages/charts/pgbouncer-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 1.26.1
     created: "2026-11-01T14:35:23.122229+07:00"
     description: PgBouncer chart, folked from https://github.com/cradlepoint/kubernetes-helm-chart-pgbouncer
       with some custom values
@@ -1367,4 +1382,4 @@ entries:
     urls:
     - https://activeops-io.github.io/helm-packages/charts/typesense-0.0.1.tgz
     version: 0.0.1
-generated: "2026-11-01T14:35:23.121394+07:00"
+generated: "2026-11-02T09:38:58.98722+07:00"
